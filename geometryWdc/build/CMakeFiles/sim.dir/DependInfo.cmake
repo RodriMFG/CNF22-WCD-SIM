@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/action.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/CMakeFiles/sim.dir/action.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/construction.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/CMakeFiles/sim.dir/construction.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/generator.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/CMakeFiles/sim.dir/generator.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/physics.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/CMakeFiles/sim.dir/physics.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/sim.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/CMakeFiles/sim.dir/sim.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/action.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/action.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/construction.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/construction.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/generator.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/generator.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/physics.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/physics.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/sim.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/sim.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
