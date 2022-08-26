@@ -1,4 +1,4 @@
-# Install script for directory: /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5
+# Install script for directory: /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

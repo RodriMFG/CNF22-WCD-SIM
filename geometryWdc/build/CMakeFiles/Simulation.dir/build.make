@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5
+CMAKE_SOURCE_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build
+CMAKE_BINARY_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build
 
 # Utility rule file for Simulation.
 
@@ -71,6 +71,6 @@ CMakeFiles/Simulation.dir/clean:
 .PHONY : CMakeFiles/Simulation.dir/clean
 
 CMakeFiles/Simulation.dir/depend:
-	cd /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5 /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5 /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut1-5/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Simulation.dir/depend
 

@@ -14,6 +14,15 @@ MyDetectorConstruction::~MyDetectorConstruction()
 //function to define detector geometry and materials
 G4VPhysicalVolume *MyDetectorConstruction::Construct()
 {
+    G4double worldSize_x = 50*m;
+    G4double worldSize_y = 50*m;
+    G4double worldSize_z = 50*m;
+
+    G4double tankRadius = 10*m;
+    G4double tankHeight = 5*m;
+    G4double tankPos_z = -25*m;
+
+    //MATERIALS///////////////////////////////////////////////////////////
     //class that contains properties of materials
     G4NistManager *nist = G4NistManager::Instance();
 
@@ -21,13 +30,13 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //we include the predefined material air
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
 
-    //all volumes in G4 require the solid that defines its size
-    //the logical volume defines the material properties
-    //the physical volumes places the object in the world and
-    //can perform rotations and copies of said volume
+    G4Material *water = nist->FindOrBuildMaterial("G4_WATER");
 
+    //VOLUMES//////////////////////////////////////////////////////////////
+    //WORLD////////////////////////////////////////////////////////////////
     //this class defines a box of name, x half-size, y, z
-    G4Box *solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
+    G4Box *solidWorld = new G4Box("solidWorld",
+        worldSize_x, worldSize_y, worldSize_z);
 
     //class defines the logical volume of
     //volume it is based on, material, name
@@ -42,9 +51,29 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //boolean operations, copy number, check for overlaps
     G4VPhysicalVolume *physWorld = new G4PVPlacement(0,
         G4ThreeVector(0., 0., 0.), logicWorld, "physWorld",
-         0, false, 0, true);
+        0, false, 0, true);
 
-    //program should return the physical volume which includes
-    //all its properties
+    //TANK//////////////////////////////////////////////////////////////
+    //construccion del tanque
+    G4Tubs *waterSolid = new G4Tubs("waterSolid", 0.,
+        tankRadius, tankHeight, 0., 360.*deg);
+
+    G4LogicalVolume *waterLogic = new G4LogicalVolume(waterSolid, water,
+        "waterLogic");
+
+    G4VPhysicalVolume *waterPhys = new G4PVPlacement(0,
+        G4ThreeVector(0., 0., tankPos_z),
+        waterLogic, "waterPhys", logicWorld, false, 0, true);
+
+    //VIS/////////////////////////////////////////////////////////////
+    //Visualizacion del agua
+    G4VisAttributes* water_va= new G4VisAttributes(G4Colour::Blue());
+    water_va->SetForceAuxEdgeVisible (true);
+    water_va->SetForceWireframe(true);
+    water_va->SetForceSolid(false);
+    water_va->SetVisibility(true);
+    waterLogic->SetVisAttributes(water_va);
+
+    //program should return the physical volume
     return physWorld;
 }
