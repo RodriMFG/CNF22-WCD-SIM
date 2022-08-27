@@ -128,7 +128,8 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //Cylinder walls
     G4Tubs *alCylSolid = new G4Tubs("tCylSolid", tankRadius + wtyvek,
-        tankRadius + wtyvek + wal, tankHeight + wtyvek + wal + 1*m, 0., 360.*deg);
+        tankRadius + wtyvek + wal, tankHeight + wtyvek + wal + 1*m,
+        0., 360.*deg);
 
     G4LogicalVolume *alCylLogic = new G4LogicalVolume(alCylSolid, Al,
         "alCylLogic");
@@ -136,6 +137,9 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4VPhysicalVolume *alCylPhys = new G4PVPlacement(0,
         G4ThreeVector(0., 0., tankPos_z - wtyvek - wal/2 + 1*m),
         alCylLogic, "alCylPhys", logicWorld, false, 0, true);
+
+    //PMTs/////////////////////////////////////////////////////////////
+
 
     //VIS/////////////////////////////////////////////////////////////
     //Visualizacion del agua
@@ -146,14 +150,14 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     water_va->SetVisibility(true);
     waterLogic->SetVisAttributes(water_va);
 
-    /*//Tyvek
-    G4VisAttributes *tyvek_va= new G4VisAttributes(G4Colour::Yellow());
+    //Tyvek
+    G4VisAttributes *tyvek_va= new G4VisAttributes(G4Colour::Red());
     tyvek_va->SetForceAuxEdgeVisible (true);
     tyvek_va->SetForceWireframe(true);
     tyvek_va->SetForceSolid(false);
     tyvek_va->SetVisibility(true);
-    tBaseLogic->SetVisAttributes(tyvek_va);
-    tCylLogic->SetVisAttributes(tyvek_va);*/
+    //tBaseLogic->SetVisAttributes(tyvek_va);
+    //tCylLogic->SetVisAttributes(tyvek_va);
 
     //Al
     G4VisAttributes *al_va= new G4VisAttributes(G4Colour::Yellow());
@@ -167,3 +171,20 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //program should return the physical volume
     return physWorld;
 }
+/*
+    G4VPhysicalVolume *photocatht1_phys = new G4PVPlacement(rm,
+        G4ThreeVector(203.0*cm,203.0*cm,scint_z/2.+sshift),
+        photocath_logL,"photocatht1", waterTank_log_c ,false,1);
+
+    G4VPhysicalVolume *photocatht2_phys = new G4PVPlacement(rm,
+        G4ThreeVector(-203.0*cm,203.0*cm,scint_z/2.+sshift),
+        photocath_logL,"photocatht2", waterTank_log_c ,false,2);
+
+    G4VPhysicalVolume *photocatht3_phys = new G4PVPlacement(rm,
+        G4ThreeVector(203.0*cm,-203.0*cm,scint_z/2.+sshift),
+        photocath_logL, "photocatht3", waterTank_log_c,false,3);
+
+    G4VPhysicalVolume *photocatht4_phys = new G4PVPlacement(rm,
+        G4ThreeVector(-203.0*cm,-203.0*cm,scint_z/2.+sshift),
+        photocath_logL,"photocatht4", waterTank_log_c,false,4);
+*/
