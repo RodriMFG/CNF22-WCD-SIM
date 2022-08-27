@@ -21,8 +21,6 @@ G4PVPlacement.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4PVPlacement.hh
 G4NistManager.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4NistManager.hh
-G4Material.hh
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4Material.hh
 G4SystemOfUnits.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4SystemOfUnits.hh
 G4PhysicalConstants.hh

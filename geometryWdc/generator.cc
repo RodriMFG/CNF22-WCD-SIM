@@ -30,7 +30,7 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     //set the initial conditions that we defined
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
-    fParticleGun->SetParticleMomentum(100.*GeV);
+    fParticleGun->SetParticleMomentum(1.*GeV);
     //define the type of particle
     fParticleGun->SetParticleDefinition(particle);
 

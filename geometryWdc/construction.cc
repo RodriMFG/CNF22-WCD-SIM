@@ -19,35 +19,54 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double worldSize_z = 50*m;
 
     G4double tankRadius = 10*m;
-    G4double tankHeight = 5*m;
-    G4double tankPos_z = -25*m;
+    G4double tankHeight = 3*m;
+    G4double tankPos_z = -30*m;
 
-    G4double wtyvek = 0.5*mm;
+    G4double wtyvek = 1*mm;
     G4double wal = 1*cm;
-
-    G4double a;  // atomic mass
-    G4double z;  // atomic number
-    G4double density;
 
     //MATERIALS///////////////////////////////////////////////////////////
     //class that contains properties of materials
     G4NistManager *nist = G4NistManager::Instance();
 
     //ELEMENTS
-    G4Element *H = new G4Element("H", "H", z=1., a=1.01*g/mole);
-    G4Element *C = new G4Element("C", "C", z=6., a=12.01*g/mole);
+    G4Element *H = new G4Element("H", "H", 1., 1.01*g/mole);
+    G4Element *C = new G4Element("C", "C", 6., 12.01*g/mole);
 
+    //Air
     //class to find and define materials
     //we include the predefined material air
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
 
-    G4Material *water = nist->FindOrBuildMaterial("G4_WATER");
+    //Water
+    //G4Material *water = nist->FindOrBuildMaterial("G4_WATER");
 
+    G4Material *water = new G4Material("water", 1.000*g/cm3, 2);
+    water->AddElement(nist->FindOrBuildElement("H"), 2);
+    water->AddElement(nist->FindOrBuildElement("O"), 1);
+
+    //Al
     G4Material *Al = nist->FindOrBuildMaterial("G4_Al");
 
-    G4Material *Tyvek = new G4Material("Tyvek",density=0.935*g/cm3,2);
+    //Tyvek
+    G4Material *Tyvek = new G4Material("Tyvek", 0.935*g/cm3,2);
     Tyvek->AddElement(C,2);
     Tyvek->AddElement(H,4);
+
+    //Properties
+    G4double energy[2] = {1.2398419398*eV/0.9, 1.2398419398*eV/0.2};
+    G4double rIndexWorld[2] = {1.0, 1.0};
+    G4double rIndexWater[2] = {1.3, 1.3};
+
+    //Air
+    G4MaterialPropertiesTable *mptWorld = new G4MaterialPropertiesTable();
+    mptWorld->AddProperty("RINDEX", energy, rIndexWorld, 2);
+    worldMat->SetMaterialPropertiesTable(mptWorld);
+
+    //Water
+    G4MaterialPropertiesTable *mptWater = new G4MaterialPropertiesTable();
+    mptWater->AddProperty("RINDEX", energy, rIndexWater, 2);
+    water->SetMaterialPropertiesTable(mptWater);
 
     //VOLUMES//////////////////////////////////////////////////////////////
     //WORLD////////////////////////////////////////////////////////////////
@@ -171,20 +190,3 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //program should return the physical volume
     return physWorld;
 }
-/*
-    G4VPhysicalVolume *photocatht1_phys = new G4PVPlacement(rm,
-        G4ThreeVector(203.0*cm,203.0*cm,scint_z/2.+sshift),
-        photocath_logL,"photocatht1", waterTank_log_c ,false,1);
-
-    G4VPhysicalVolume *photocatht2_phys = new G4PVPlacement(rm,
-        G4ThreeVector(-203.0*cm,203.0*cm,scint_z/2.+sshift),
-        photocath_logL,"photocatht2", waterTank_log_c ,false,2);
-
-    G4VPhysicalVolume *photocatht3_phys = new G4PVPlacement(rm,
-        G4ThreeVector(203.0*cm,-203.0*cm,scint_z/2.+sshift),
-        photocath_logL, "photocatht3", waterTank_log_c,false,3);
-
-    G4VPhysicalVolume *photocatht4_phys = new G4PVPlacement(rm,
-        G4ThreeVector(-203.0*cm,-203.0*cm,scint_z/2.+sshift),
-        photocath_logL,"photocatht4", waterTank_log_c,false,4);
-*/
