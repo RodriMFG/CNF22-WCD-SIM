@@ -42,6 +42,7 @@ int main(int argc, char** argv)
     UImanager->ApplyCommand("/vis/open OGL");
     //set initial viewpoint
     UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 0 -10 2");
+    UImanager->ApplyCommand("/vis/viewer/set/rotationStyle freeRotation");
     //tell G4 to draw the volume
     UImanager->ApplyCommand("/vis/drawVolume");
     //update everytime and event is created
@@ -49,7 +50,7 @@ int main(int argc, char** argv)
     //smoothen trajectories
     UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
     //accumulates all events that happen in a signle run
-    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
+    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate 10");
 
     ui->SessionStart();
 
