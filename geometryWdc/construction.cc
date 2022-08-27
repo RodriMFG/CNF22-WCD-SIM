@@ -19,7 +19,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double worldSize_z = 50*m;
 
     G4double tankRadius = 10*m;
-    G4double tankHeight = 3*m;
+    G4double tankHeight = 6*m;
     G4double tankPos_z = -30*m;
 
     G4double wtyvek = 1*mm;
@@ -139,11 +139,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     G4VPhysicalVolume *alBasePhys1 = new G4PVPlacement(0,
         G4ThreeVector(0., 0., tankPos_z - tankHeight - wtyvek - wal/2),
-        alBaseLogic, "alBasePhys2", logicWorld, false, 1, true);
-    //
-    G4VPhysicalVolume *alBasePhys2 = new G4PVPlacement(0,
-        G4ThreeVector(0., 0., tankPos_z + tankHeight + wtyvek + wal/2 + 2*m),
-        alBaseLogic, "alBasePhys2", logicWorld, false, 1, true);
+        alBaseLogic, "alBasePhys2", logicWorld, false, 0, true);
 
     //Cylinder walls
     G4Tubs *alCylSolid = new G4Tubs("tCylSolid", tankRadius + wtyvek,
