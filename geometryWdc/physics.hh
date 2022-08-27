@@ -7,6 +7,11 @@
 #include "G4EmStandardPhysics.hh"
 #include "G4OpticalPhysics.hh"
 
+#include "globals.hh"
+#include "G4ios.hh"
+
+#include "G4VPhysicsConstructor.hh"
+
 //inherited from G4VModularPhysicsList
 class MyPhysicsList : public G4VModularPhysicsList
 {

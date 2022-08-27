@@ -21,6 +21,8 @@ G4PVPlacement.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4PVPlacement.hh
 G4NistManager.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4NistManager.hh
+G4Material.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4Material.hh
 G4SystemOfUnits.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4SystemOfUnits.hh
 G4PhysicalConstants.hh
@@ -29,6 +31,8 @@ G4Box.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4Box.hh
 G4Tubs.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4Tubs.hh
+G4CutTubs.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4CutTubs.hh
 G4Sphere.hh
 /home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/G4Sphere.hh
 G4VisAttributes.hh
@@ -341,6 +345,20 @@ iostream
 -
 map
 -
+
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.hh
+G4GeomTypes.hh
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4GeomTypes.hh
+G4UCutTubs.hh
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UCutTubs.hh
+G4CSGSolid.hh
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CSGSolid.hh
+G4Polyhedron.hh
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Polyhedron.hh
+G4CutTubs.icc
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.icc
+
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.icc
 
 /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4DataVector.hh
 fstream
@@ -860,6 +878,14 @@ VecGeom/base/Vector3D.h
 G4UAdapter.hh
 /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UAdapter.hh
 VecGeom/volumes/UnplacedBox.h
+-
+G4Polyhedron.hh
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Polyhedron.hh
+
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UCutTubs.hh
+G4UAdapter.hh
+/home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UAdapter.hh
+VecGeom/volumes/UnplacedCutTube.h
 -
 G4Polyhedron.hh
 /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Polyhedron.hh

@@ -86,6 +86,8 @@ CMakeFiles/sim.dir/construction.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CSGSolid.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Color.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Colour.hh
+ /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.hh
+ /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.icc
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4DataVector.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4DataVector.icc
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Element.hh
@@ -145,6 +147,7 @@ CMakeFiles/sim.dir/construction.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Types.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UAdapter.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UBox.hh
+ /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UCutTubs.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4USphere.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UTubs.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4VExceptionHandler.hh
@@ -382,6 +385,8 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ClassificationOfNewTrack.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Color.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Colour.hh
+ /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.hh
+ /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4CutTubs.icc
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4DAWNFILE.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4DCofThisEvent.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4DataVector.hh
@@ -566,6 +571,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Types.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UAdapter.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UBox.hh
+ /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UCutTubs.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UIExecutive.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UIcommand.hh
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UIcommandStatus.hh
