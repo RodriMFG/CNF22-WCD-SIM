@@ -48,6 +48,8 @@ int main(int argc, char** argv)
     UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
     //smoothen trajectories
     UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
+    //accumulates all events that happen in a signle run
+    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
 
     ui->SessionStart();
 
