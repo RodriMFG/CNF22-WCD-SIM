@@ -41,7 +41,7 @@ int main(int argc, char** argv)
     //use openGL
     UImanager->ApplyCommand("/vis/open OGL");
     //set initial viewpoint
-    UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+    UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 0 -10 2");
     //tell G4 to draw the volume
     UImanager->ApplyCommand("/vis/drawVolume");
     //update everytime and event is created

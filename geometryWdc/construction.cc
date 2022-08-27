@@ -14,8 +14,8 @@ MyDetectorConstruction::~MyDetectorConstruction()
 //function to define detector geometry and materials
 G4VPhysicalVolume *MyDetectorConstruction::Construct()
 {
-    G4double worldSize_x = 50*m;
-    G4double worldSize_y = 50*m;
+    G4double worldSize_x = 25*m;
+    G4double worldSize_y = 25*m;
     G4double worldSize_z = 50*m;
 
     G4double tankRadius = 10*m;
