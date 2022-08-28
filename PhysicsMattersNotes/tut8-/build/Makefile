@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut8-
+CMAKE_SOURCE_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut8-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut8-/build
+CMAKE_BINARY_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut8-/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut8-/build/CMakeFiles /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut8-/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut8-/build/CMakeFiles /home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut8-/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut8-/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut8-/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -271,6 +271,33 @@ physics.cc.s:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.s
 .PHONY : physics.cc.s
 
+run.o: run.cc.o
+
+.PHONY : run.o
+
+# target to build an object file
+run.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/run.cc.o
+.PHONY : run.cc.o
+
+run.i: run.cc.i
+
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/run.cc.i
+.PHONY : run.cc.i
+
+run.s: run.cc.s
+
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/run.cc.s
+.PHONY : run.cc.s
+
 sim.o: sim.cc.o
 
 .PHONY : sim.o
@@ -323,6 +350,9 @@ help:
 	@echo "... physics.o"
 	@echo "... physics.i"
 	@echo "... physics.s"
+	@echo "... run.o"
+	@echo "... run.i"
+	@echo "... run.s"
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"
