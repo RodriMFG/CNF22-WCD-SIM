@@ -2,7 +2,7 @@
 #define ACTION_HH
 
 #include "G4VUserActionInitialization.hh"
-
+#include "G4AnalysisManager.hh"
 #include "generator.hh"
 
 class MyActionInitialization : public G4VUserActionInitialization
