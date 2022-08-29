@@ -8,7 +8,7 @@ MyRunAction::~MyRunAction()
 
 void MyRunAction::BeginOfRunAction(const G4Run*)
 {
-    G4AnalysisManager *man = G4AnalysisManager::Instance();
+    G4RootAnalysisManager *man = G4RootAnalysisManager::Instance();
 
     man->OpenFile("output.root");
 
@@ -22,7 +22,7 @@ void MyRunAction::BeginOfRunAction(const G4Run*)
 
 void MyRunAction::EndOfRunAction(const G4Run*)
 {
-    G4AnalysisManager *man = G4AnalysisManager::Instance();
+    G4RootAnalysisManager *man = G4RootAnalysisManager::Instance();
 
     man->Write();
     man->CloseFile();
