@@ -46,6 +46,8 @@ CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/in
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ParticleTableIterator.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PrimaryParticle.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PrimaryVertex.hh
+CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Profiler.hh
+CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Profiler.icc
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootAnalysisManager.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootAnalysisManager.icc
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootFileDef.hh
@@ -53,6 +55,7 @@ CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/in
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleFileManager.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.icc
+CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Run.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.icc
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SystemOfUnits.hh
@@ -93,6 +96,9 @@ CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/in
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4VUserActionInitialization.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4VUserPrimaryGeneratorAction.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ios.hh
+CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/PTL/Globals.hh
+CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/PTL/Types.hh
+CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/PTL/Utility.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/globals.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/pwdefs.hh
 CMakeFiles/sim.dir/action.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/templates.hh
@@ -399,6 +405,7 @@ CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.
 CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.hh
 CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.icc
 CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RotationMatrix.hh
+CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Run.hh
 CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RunManager.hh
 CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RunManagerKernel.hh
 CMakeFiles/sim.dir/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SandiaTable.hh
@@ -804,6 +811,7 @@ CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/
 CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.hh
 CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.icc
 CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RotationMatrix.hh
+CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Run.hh
 CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RunManager.hh
 CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RunManagerKernel.hh
 CMakeFiles/sim.dir/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SandiaTable.hh
@@ -1104,6 +1112,8 @@ CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4NtupleBookingManager.icc
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4P1ToolsManager.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4P2ToolsManager.hh
+CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Profiler.hh
+CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Profiler.icc
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootAnalysisManager.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootAnalysisManager.icc
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootFileDef.hh
@@ -1111,6 +1121,7 @@ CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleFileManager.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.icc
+CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Run.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.icc
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4TFileInformation.hh
@@ -1147,6 +1158,9 @@ CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4VTFileManager.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4VTHnFileManager.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ios.hh
+CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/PTL/Globals.hh
+CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/PTL/Types.hh
+CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/PTL/Utility.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/globals.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/templates.hh
 CMakeFiles/sim.dir/run.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/tls.hh
@@ -1489,6 +1503,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RootNtupleManager.icc
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RotationMatrix.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Run.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RunManager.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4RunManagerKernel.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SandiaTable.hh
