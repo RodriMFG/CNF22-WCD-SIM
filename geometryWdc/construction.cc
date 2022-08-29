@@ -154,7 +154,18 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
         alCylLogic, "alCylPhys", logicWorld, false, 0, true);
 
     //PMTs/////////////////////////////////////////////////////////////
+    G4Box *solidDetector = new G4Box("solidDetector",
+        0.5*m, 0.5*m, 0.5*m);
 
+    //the sensitive volume we later define has to be able
+    //to refer to logical volume outside this function,
+    //so we add the function in the header file
+    logicDetector = new G4LogicalVolume(solidDetector, worldMat,
+        "logicDetector");
+
+    G4VPhysicalVolume *physDetector = new G4PVPlacement(0,
+        G4ThreeVector(2*m, 2*m, 2*m),
+        logicDetector, "physDetector", logicWorld, false, 0, true);
 
     //VIS/////////////////////////////////////////////////////////////
     //Visualizacion del agua
@@ -185,4 +196,13 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //program should return the physical volume
     return physWorld;
+}
+
+//DETECTOR////////////////////////////////////////////////
+void MyDetectorConstruction::ConstructSDandField()
+{
+    MySensitiveDetector *sensDet = new
+        MySensitiveDetector("SensitiveDetector");
+
+    logicDetector->SetSensitiveDetector(sensDet);
 }

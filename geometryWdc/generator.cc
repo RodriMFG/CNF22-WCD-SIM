@@ -6,16 +6,7 @@
 MyPrimaryGenerator::MyPrimaryGenerator()
 {
     fParticleGun = new G4ParticleGun(1);
-}
 
-MyPrimaryGenerator::~MyPrimaryGenerator()
-{
-    delete fParticleGun;
-}
-
-//function that generates an event (particle)
-void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
-{
     //tell the program to get the list of particles
     G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
     //set the search name in type G4 string
@@ -27,13 +18,19 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     G4ThreeVector pos(0.,0., 25*m);
     G4ThreeVector mom(0.,0., -1.);
 
-    //set the initial conditions that we defined
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
     fParticleGun->SetParticleMomentum(1.*GeV);
-    //define the type of particle
     fParticleGun->SetParticleDefinition(particle);
+}
 
-    //tell G4 to generate the event
+MyPrimaryGenerator::~MyPrimaryGenerator()
+{
+    delete fParticleGun;
+}
+
+//function that generates an event (particle)
+void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
+{
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }

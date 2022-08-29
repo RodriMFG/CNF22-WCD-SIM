@@ -28,31 +28,29 @@ int main(int argc, char** argv)
 
     runManager->Initialize();
 
-	//class for ui
-    G4UIExecutive *ui = new G4UIExecutive(argc, argv);
+    G4UIExecutive *ui = 0;
 
-	//class for vis managing
+    if(argc == 1)
+    {
+        ui = new G4UIExecutive(argc, argv);
+    }
+
     G4VisManager *visManager = new G4VisExecutive();
     visManager->Initialize();
 
-	//class for managing ui
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
 
-    //use openGL
-    UImanager->ApplyCommand("/vis/open OGL");
-    //set initial viewpoint
-    UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 0 -10 2");
-    UImanager->ApplyCommand("/vis/viewer/set/rotationStyle freeRotation");
-    //tell G4 to draw the volume
-    UImanager->ApplyCommand("/vis/drawVolume");
-    //update everytime and event is created
-    UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
-    //smoothen trajectories
-    UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
-    //accumulates all events that happen in a signle run
-    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate 10");
-
-    ui->SessionStart();
+    if(ui)
+    {
+        UImanager->ApplyCommand("/control/execute vis.mac");
+        ui->SessionStart();
+    }
+    else
+    {
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+        UImanager->ApplyCommand(command+fileName);
+    }
 
     delete visManager;
     delete runManager;

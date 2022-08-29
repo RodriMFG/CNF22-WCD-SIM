@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/action.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/action.cc.o"
   "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/construction.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/construction.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/detector.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/detector.cc.o"
   "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/generator.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/generator.cc.o"
   "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/physics.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/physics.cc.o"
   "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/sim.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir/sim.cc.o"
