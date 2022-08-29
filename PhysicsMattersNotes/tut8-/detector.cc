@@ -38,8 +38,18 @@ G4TouchableHistory *ROhist)
     G4VPhysicalVolume *physVol = touchable->GetVolume();
     G4ThreeVector posDetector = physVol->GetTranslation();
 
+    G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()
+        ->GetEventID();
+
     //cout of the hit cell position
     G4cout << "Detector position: " << posDetector << G4endl;
+
+    G4RootAnalysisManager *man = G4RootAnalysisManager::Instance();
+    man->FillNtupleIColumn(0, evt);
+    man->FillNtupleDColumn(1, posDetector[0]);
+    man->FillNtupleDColumn(2, posDetector[1]);
+    man->FillNtupleDColumn(3, posDetector[2]);
+    man->AddNtupleRow(0);
 
     return true;
 }

@@ -4,6 +4,9 @@
 #define DETECTOR_HH
 
 #include "G4VSensitiveDetector.hh"
+#include "G4RunManager.hh"
+
+#include "run.hh"
 
 //inherited from G4VSensitiveDetector
 class MySensitiveDetector : public G4VSensitiveDetector
