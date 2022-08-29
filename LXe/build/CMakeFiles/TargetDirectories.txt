@@ -1,7 +1,0 @@
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/install/strip.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/install/local.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/install.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/list_install_components.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/rebuild_cache.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/edit_cache.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/LXe/build/CMakeFiles/LXe.dir
