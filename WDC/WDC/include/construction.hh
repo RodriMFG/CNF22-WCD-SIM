@@ -38,7 +38,9 @@ public:
 
 private:
     //function that is refered to outside of construction.cc
-    G4LogicalVolume *logicDetector;
+    G4LogicalVolume *logicDetectorUp;
+    G4LogicalVolume *logicDetectorDown;
+    G4LogicalVolume *logicDetectors;
 
     //function to construct the detector
     virtual void ConstructSDandField();

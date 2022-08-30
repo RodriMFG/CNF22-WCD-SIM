@@ -59,9 +59,11 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //Polypropylene
     G4Material *Pp = new G4Material("Pp", 0.850*g/cm3, 2);
+    G4Material *Pp0 = new G4Material("Pp", 0.850*g/cm3, 2);
     Pp->AddElement(C, 1);
     Pp->AddElement(H, 3);
-
+    Pp0->AddElement(C, 1);
+    Pp0->AddElement(H, 3);
 
     //Properties
     //From PhysicsMaters
@@ -93,14 +95,14 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     tyvekSurface->SetMaterialPropertiesTable(mptTyvek);
 
     //Polypropylene
-    G4double ppReflectivity[2] = {0.10, 0.05};
+    G4double ppEfficiency[2] = {0.10, 0.05};
     G4MaterialPropertiesTable *mptPp = new G4MaterialPropertiesTable();
-    mptPp->AddProperty("RINDEX", energy, rIndexPp, 2);
-    mptPp->AddProperty("REFLECTIVITY", energy, ppReflectivity, 2);
-    G4OpticalSurface *ppSurface = new G4OpticalSurface("ppSurface",
-        unified, polished, dielectric_dielectric);
-    ppSurface->SetMaterialPropertiesTable(mptPp);
+    mptPp->AddProperty("EFFICIENCY", energy, ppEfficiency, 2);
     Pp->SetMaterialPropertiesTable(mptPp);
+
+    G4MaterialPropertiesTable *mptPp0 = new G4MaterialPropertiesTable();
+    mptPp0->AddProperty("RINDEX", energy, rIndexPp, 2);
+    Pp0->SetMaterialPropertiesTable(mptPp0);
 
     //VOLUMES//////////////////////////////////////////////////////////////
     //WORLD////////////////////////////////////////////////////////////////
@@ -142,7 +144,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     G4LogicalVolume *tBaseLogic = new G4LogicalVolume(tBaseSolid, Tyvek,
         "tBaseLogic");
-    new G4LogicalSkinSurface("tBase_surface", tBaseLogic, tyvekSurface);
+    //new G4LogicalSkinSurface("tBase_surface", tBaseLogic, tyvekSurface);
 
     G4VPhysicalVolume *tBasePhys = new G4PVPlacement(0,
         G4ThreeVector(0., 0., tankPos_z - tankHeight - wtyvek),
@@ -174,7 +176,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //Cylinder walls
     G4Tubs *alCylSolid = new G4Tubs("tCylSolid", tankRadius + wtyvek,
-        tankRadius + wtyvek + wal, tankHeight + wtyvek + wal + 1*m,
+        tankRadius + wtyvek + wal, tankHeight + wtyvek + wal + 0.5*m,
         0., 360.*deg);
 
     G4LogicalVolume *alCylLogic = new G4LogicalVolume(alCylSolid, Al,
@@ -184,37 +186,80 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
         G4ThreeVector(0., 0., tankPos_z - wtyvek - wal + 0.5*m),
         alCylLogic, "alCylPhys", logicWorld, false, 0, true);
 
-    //Polypropylene
+    //PP
+    //Base
     G4Tubs *ppSolid = new G4Tubs("ppSolid", 0.,
         tankRadius, 0.012*mm, 0., 360.*deg);
 
-    G4LogicalVolume *ppLogic = new G4LogicalVolume(ppSolid, Pp,
+    G4LogicalVolume *ppLogic = new G4LogicalVolume(ppSolid, Pp0,
         "ppLogic");
-    new G4LogicalSkinSurface("pp_surface", ppLogic, ppSurface);
 
     G4VPhysicalVolume *ppPhys = new G4PVPlacement(0,
-        G4ThreeVector(0., 0., -tankHeight + 1*m),
+        G4ThreeVector(0., 0., -tankHeight + 1.*m),
         ppLogic, "ppPhys", waterLogic, false, 0, true);
+
+    //Cyl
+    G4Tubs *pTopSolid = new G4Tubs("pTopSolid", 0.,
+        tankRadius, wtyvek, 0., 360.*deg);
+
+    G4LogicalVolume *pTopLogic = new G4LogicalVolume(pTopSolid, Pp,
+        "ppLogic");
+
+    G4VPhysicalVolume *pTopPhys = new G4PVPlacement(0,
+        G4ThreeVector(0., 0., tankPos_z + tankHeight + 1*m),
+        pTopLogic, "pTopPhys", logicWorld, false, 0, true);
 
     //PMTs/////////////////////////////////////////////////////////////
     //Detector de prueba
-    G4Box *solidDetector = new G4Box("solidDetector",
-        0.5*m, 0.5*m, 0.5*m);
+    G4Sphere *solidDetectorUp = new G4Sphere("solidDetectorUp",
+        0., 10.*2.54*cm, 0.*deg, 360.*deg, 0.*deg, 90.*deg);
 
     //the sensitive volume we later define has to be able
     //to refer to logical volume outside this function,
     //so we add the function in the header file
-    logicDetector = new G4LogicalVolume(solidDetector, worldMat,
-        "logicDetector");
+    logicDetectorUp = new G4LogicalVolume(solidDetectorUp, worldMat,
+        "logicDetectorUp");
 
-    G4VPhysicalVolume *physDetector = new G4PVPlacement(0,
-        G4ThreeVector(2*m, 2*m, 2*m),
-        logicDetector, "physDetector", logicWorld, false, 0, true);
+    G4VPhysicalVolume *physDetectorUp = new G4PVPlacement(0,
+        G4ThreeVector(0., 0., -tankHeight + 1.*m),
+        logicDetectorUp, "physDetectorUp", waterLogic, false, 0, true);
+
+    //
+    G4Sphere *solidDetectorDown = new G4Sphere("solidDetectorDown",
+        0., 10.*2.54*cm, 0.*deg, 360.*deg, 90.*deg, 180.*deg);
+
+    logicDetectorDown = new G4LogicalVolume(solidDetectorDown, worldMat,
+        "logicDetectorDown");
+
+    G4VPhysicalVolume *physDetectorDown = new G4PVPlacement(0,
+        G4ThreeVector(0., 0., -tankHeight + 1.*m),
+        logicDetectorDown, "physDetectorDown", waterLogic, false, 1, true);
+
+    //
+
+    G4Sphere *solidDetectors = new G4Sphere("solidDetector",
+        0., 5.*2.54*cm, 0.*deg, 360.*deg, 0.*deg, 90.*deg);
+
+    logicDetectors = new G4LogicalVolume(solidDetectors, worldMat,
+        "logicDetector0");
+
+    G4VPhysicalVolume *physDetectors1 = new G4PVPlacement(0,
+        G4ThreeVector(tankRadius/2, 0., -tankHeight + 1.*m),
+        logicDetectors, "physDetectors1", waterLogic, false, 2, true);
+    G4VPhysicalVolume *physDetectors2 = new G4PVPlacement(0,
+        G4ThreeVector(-tankRadius/2, 0., -tankHeight + 1.*m),
+        logicDetectors, "physDetectors2", waterLogic, false, 3, true);
+    G4VPhysicalVolume *physDetectors3 = new G4PVPlacement(0,
+        G4ThreeVector(0., tankRadius/2, -tankHeight + 1.*m),
+        logicDetectors, "physDetectors3", waterLogic, false, 4, true);
+    G4VPhysicalVolume *physDetectors4 = new G4PVPlacement(0,
+        G4ThreeVector(0., -tankRadius/2, -tankHeight + 1.*m),
+        logicDetectors, "physDetectors4", waterLogic, false, 5, true);
 
     //VIS/////////////////////////////////////////////////////////////
     //Visualizacion del agua
     G4VisAttributes *water_va= new G4VisAttributes(G4Colour::Blue());
-    water_va->SetForceAuxEdgeVisible (true);
+    water_va->SetForceAuxEdgeVisible(true);
     water_va->SetForceWireframe(true);
     water_va->SetForceSolid(false);
     water_va->SetVisibility(true);
@@ -222,16 +267,19 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //Tyvek
     G4VisAttributes *tyvek_va= new G4VisAttributes(G4Colour::Red());
-    tyvek_va->SetForceAuxEdgeVisible (true);
+    tyvek_va->SetForceAuxEdgeVisible(true);
     tyvek_va->SetForceWireframe(true);
     tyvek_va->SetForceSolid(false);
     tyvek_va->SetVisibility(true);
+    logicDetectorUp->SetVisAttributes(tyvek_va);
+    logicDetectorDown->SetVisAttributes(tyvek_va);
+    logicDetectors->SetVisAttributes(tyvek_va);
     //tBaseLogic->SetVisAttributes(tyvek_va);
     //tCylLogic->SetVisAttributes(tyvek_va);
 
     //Al
     G4VisAttributes *al_va= new G4VisAttributes(G4Colour::Yellow());
-    al_va->SetForceAuxEdgeVisible (true);
+    al_va->SetForceAuxEdgeVisible(true);
     al_va->SetForceWireframe(true);
     al_va->SetForceSolid(false);
     al_va->SetVisibility(true);
@@ -240,11 +288,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     //PP
     G4VisAttributes *pp_va= new G4VisAttributes(G4Colour::Grey());
-    pp_va->SetForceAuxEdgeVisible (true);
+    pp_va->SetForceAuxEdgeVisible(true);
     pp_va->SetForceWireframe(true);
     pp_va->SetForceSolid(false);
     pp_va->SetVisibility(true);
     ppLogic->SetVisAttributes(pp_va);
+    pTopLogic->SetVisAttributes(pp_va);
 
     //program should return the physical volume
     return physWorld;
@@ -256,5 +305,7 @@ void MyDetectorConstruction::ConstructSDandField()
     MySensitiveDetector *sensDet = new
         MySensitiveDetector("SensitiveDetector");
 
-    logicDetector->SetSensitiveDetector(sensDet);
+    logicDetectorUp->SetSensitiveDetector(sensDet);
+    logicDetectorDown->SetSensitiveDetector(sensDet);
+    logicDetectors->SetSensitiveDetector(sensDet);
 }

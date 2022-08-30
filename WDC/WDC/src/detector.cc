@@ -28,10 +28,9 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
     //get access to the physical volume of the sensors
     const G4VTouchable *touchable = aStep->GetPreStepPoint()->GetTouchable();
     //get  the copy number of out cell
-    //G4int copyNo = touchable->GetCopyNumber();
-
+    G4int copyNo = touchable->GetCopyNumber();
     //cout the copy number the hit cell
-    //G4cout << "Copy number: " << copyNo << G4endl;
+    G4cout << "Copy number: " << copyNo << G4endl;
 
     //function to get position of hit detector
     G4VPhysicalVolume *physVol = touchable->GetVolume();
