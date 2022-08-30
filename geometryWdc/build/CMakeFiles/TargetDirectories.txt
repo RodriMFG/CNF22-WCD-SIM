@@ -1,4 +1,0 @@
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/rebuild_cache.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/Simulation.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/edit_cache.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/geometryWdc/build/CMakeFiles/sim.dir
