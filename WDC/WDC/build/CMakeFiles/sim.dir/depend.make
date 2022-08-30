@@ -162,6 +162,10 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Isotope.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4IsotopeVector.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Log.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSkinSurface.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSkinSurface.icc
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSurface.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSurface.icc
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalVolume.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalVolume.icc
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LorentzVector.hh
@@ -199,6 +203,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OpenGLStoredX.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OpticalParameters.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OpticalPhysics.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OpticalSurface.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OrderedTable.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PDefManager.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PVPlacement.hh
@@ -215,6 +220,8 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ParticleTableIterator.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicalConstants.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicalVolumeModel.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Physics2DVector.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Physics2DVector.icc
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicsFreeVector.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicsListHelper.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicsListOrderingParameter.hh
@@ -264,6 +271,8 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SmartVoxelNode.icc
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SmartVoxelProxy.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SmartVoxelProxy.icc
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Sphere.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Sphere.icc
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4StackManager.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4StackedTrack.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Step.hh
@@ -275,6 +284,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SteppingManager.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.icc
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SurfaceProperty.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SystemOfUnits.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4THitsCollection.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4THitsMap.hh
@@ -312,6 +322,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/insta
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UImessenger.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UIparameter.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UItokenNum.hh
+CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4USphere.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UTubs.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/sim.dir/sim.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UserSteppingAction.hh
@@ -590,6 +601,10 @@ CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Isotope.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4IsotopeVector.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Log.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSkinSurface.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSkinSurface.icc
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSurface.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalSurface.icc
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalVolume.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LogicalVolume.icc
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4LorentzVector.hh
@@ -615,6 +630,7 @@ CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Normal3D.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4NormalNavigation.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4NormalNavigation.icc
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OpticalSurface.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4OrderedTable.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PDefManager.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PVPlacement.hh
@@ -629,6 +645,8 @@ CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ParticleTable.icc
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ParticleTableIterator.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicalConstants.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Physics2DVector.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Physics2DVector.icc
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicsFreeVector.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicsModelCatalog.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4PhysicsTable.hh
@@ -668,6 +686,8 @@ CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SmartVoxelNode.icc
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SmartVoxelProxy.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SmartVoxelProxy.icc
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Sphere.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Sphere.icc
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4StackManager.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4StackedTrack.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Step.hh
@@ -679,6 +699,7 @@ CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SteppingManager.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.icc
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SurfaceProperty.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SystemOfUnits.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4Threading.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4ThreeVector.hh
@@ -707,6 +728,7 @@ CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UImessenger.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UIparameter.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UItokenNum.hh
+CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4USphere.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UTubs.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/sim.dir/src/construction.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4UserSteppingAction.hh

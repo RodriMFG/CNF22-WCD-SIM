@@ -15,12 +15,12 @@ MyPrimaryGenerator::MyPrimaryGenerator()
     G4ParticleDefinition *particle = particleTable->FindParticle("proton");
 
     //define vector for the initial conditions of the particle
-    G4ThreeVector pos(0.,0., 25*m);
+    G4ThreeVector pos(0.,0., 20*m);
     G4ThreeVector mom(0.,0., -1.);
 
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
-    fParticleGun->SetParticleMomentum(1.*GeV);
+    fParticleGun->SetParticleMomentum(0.9 * GeV);
     fParticleGun->SetParticleDefinition(particle);
 }
 
