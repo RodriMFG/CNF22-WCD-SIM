@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/action.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/build/CMakeFiles/sim.dir/action.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/construction.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/build/CMakeFiles/sim.dir/construction.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/detector.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/build/CMakeFiles/sim.dir/detector.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/generator.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/build/CMakeFiles/sim.dir/generator.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/physics.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/build/CMakeFiles/sim.dir/physics.cc.o"
-  "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/sim.cc" "/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/build/CMakeFiles/sim.dir/sim.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/action.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/build/CMakeFiles/sim.dir/action.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/construction.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/build/CMakeFiles/sim.dir/construction.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/detector.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/build/CMakeFiles/sim.dir/detector.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/generator.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/build/CMakeFiles/sim.dir/generator.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/physics.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/build/CMakeFiles/sim.dir/physics.cc.o"
+  "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/sim.cc" "/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/build/CMakeFiles/sim.dir/sim.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
