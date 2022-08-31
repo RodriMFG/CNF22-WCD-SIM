@@ -37,3 +37,8 @@ void MyRunAction::EndOfRunAction(const G4Run*)
     man->Write();
     man->CloseFile();
 }
+
+/* To view a color histogram of the hits in XY
+$ root output.root
+root[] Hits->Draw("fX:fY", "", "colz")
+*/

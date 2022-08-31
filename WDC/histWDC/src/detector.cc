@@ -53,3 +53,10 @@ G4TouchableHistory *ROhist)
 
     return true;
 }
+
+/* To view a color histogram of the hits in XY
+$
+    root output.root
+root[]
+    Hits->Draw("fX:fY", "", "colz")
+*/

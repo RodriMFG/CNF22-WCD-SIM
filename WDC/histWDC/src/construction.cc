@@ -162,7 +162,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //to refer to logical volume outside this function,
     //so we add the function in the header file
 
-    G4int n = 50;
+    G4int n = 100;
     G4double detSize = 2*tankRadius/n;
 
     G4Box *solidDetector = new G4Box("solidDetector",
