@@ -25,6 +25,9 @@ G4TouchableHistory *ROhist)
     G4StepPoint *postStepPoint = aStep->GetPostStepPoint();
 
     G4ThreeVector posPhoton = preStepPoint->GetPosition();
+    G4ThreeVector momPhoton = preStepPoint->GetMomentum();
+
+    G4double wlen = (1.239841939*eV/momPhoton.mag())*1E+03;
 
     //get access to the physical volume of the sensors
     const G4VTouchable *touchable = aStep->GetPreStepPoint()->GetTouchable();
@@ -45,11 +48,19 @@ G4TouchableHistory *ROhist)
     G4cout << "Detector position: " << posDetector << G4endl;
 
     G4RootAnalysisManager *man = G4RootAnalysisManager::Instance();
-    man->FillNtupleIColumn(0, evt);
-    man->FillNtupleDColumn(1, posDetector[0]);
-    man->FillNtupleDColumn(2, posDetector[1]);
-    man->FillNtupleDColumn(3, posDetector[2]);
+
+    man->FillNtupleIColumn(0, 0, evt);
+    man->FillNtupleDColumn(0, 1, posPhoton[0]);
+    man->FillNtupleDColumn(0, 2, posPhoton[1]);
+    man->FillNtupleDColumn(0, 3, posPhoton[2]);
+    man->FillNtupleDColumn(0, 4, wlen);
     man->AddNtupleRow(0);
+
+    man->FillNtupleIColumn(1, 0, evt);
+    man->FillNtupleDColumn(1, 1, posDetector[0]);
+    man->FillNtupleDColumn(1, 2, posDetector[1]);
+    man->FillNtupleDColumn(1, 3, posDetector[2]);
+    man->AddNtupleRow(1);
 
     return true;
 }

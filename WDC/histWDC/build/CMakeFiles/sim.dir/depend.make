@@ -1382,6 +1382,7 @@ CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.
 CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SteppingManager.hh
 CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.hh
 CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4String.icc
+CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4SystemOfUnits.hh
 CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4TFileInformation.hh
 CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4TFileManager.hh
 CMakeFiles/sim.dir/src/detector.cc.o: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/G4TFileManager.icc

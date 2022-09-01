@@ -5,6 +5,7 @@
 
 #include "G4VSensitiveDetector.hh"
 #include "G4RunManager.hh"
+#include "G4SystemOfUnits.hh"
 
 #include "run.hh"
 
