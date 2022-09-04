@@ -83,6 +83,7 @@ G4TouchableHistory *ROhist)
         man->FillNtupleDColumn(1, 1, posDetector[0]);
         man->FillNtupleDColumn(1, 2, posDetector[1]);
         man->FillNtupleDColumn(1, 3, posDetector[2]);
+        man->FillNtupleDColumn(1, 4, wlen);
         man->AddNtupleRow(1);
     }
 
@@ -93,5 +94,5 @@ G4TouchableHistory *ROhist)
 $
     root output.root
 root[]
-    Hits->Draw("fX:fY", "", "colz")
+    Hits/Photons->Draw("fX:fY", "", "colz")
 */

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC
+# Install script for directory: /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,7 +8,7 @@ CMakeFiles/sim.dir/sim.cc.o
  ../include/generator.hh
  ../include/physics.hh
  ../include/run.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/sim.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/sim.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/BasicVector3D.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/Normal3D.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/Plane3D.h
@@ -534,7 +534,7 @@ CMakeFiles/sim.dir/src/action.cc.o
  ../include/action.hh
  ../include/generator.hh
  ../include/run.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/action.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/action.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/PhysicalConstants.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/SystemOfUnits.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/defs.h
@@ -703,7 +703,7 @@ CMakeFiles/sim.dir/src/construction.cc.o
  ../include/construction.hh
  ../include/detector.hh
  ../include/run.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/construction.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/construction.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/BasicVector3D.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/Normal3D.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/Plane3D.h
@@ -1149,7 +1149,7 @@ CMakeFiles/sim.dir/src/construction.cc.o
 CMakeFiles/sim.dir/src/detector.cc.o
  ../include/detector.hh
  ../include/run.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/detector.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/detector.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/BasicVector3D.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/Normal3D.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/Point3D.h
@@ -1544,7 +1544,7 @@ CMakeFiles/sim.dir/src/detector.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/trkgdefs.hh
 CMakeFiles/sim.dir/src/generator.cc.o
  ../include/generator.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/generator.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/generator.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/PhysicalConstants.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/SystemOfUnits.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/defs.h
@@ -1584,7 +1584,7 @@ CMakeFiles/sim.dir/src/generator.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/tls.hh
 CMakeFiles/sim.dir/src/physics.cc.o
  ../include/physics.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/physics.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/physics.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/PhysicalConstants.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/SystemOfUnits.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Units/defs.h
@@ -1638,7 +1638,7 @@ CMakeFiles/sim.dir/src/physics.cc.o
  /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/include/Geant4/tls.hh
 CMakeFiles/sim.dir/src/run.cc.o
  ../include/run.hh
- /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/run.cc
+ /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/run.cc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Vector/ThreeVector.h
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Vector/ThreeVector.icc
  /home/rodrimfg/softwere/clhep/install/include/CLHEP/Vector/defs.h

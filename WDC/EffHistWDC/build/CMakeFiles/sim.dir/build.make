@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC
+CMAKE_SOURCE_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build
+CMAKE_BINARY_DIR = /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sim.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/sim.dir/flags.make
 
 CMakeFiles/sim.dir/sim.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/sim.cc.o: ../sim.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sim.dir/sim.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/sim.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/sim.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sim.dir/sim.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/sim.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/sim.cc
 
 CMakeFiles/sim.dir/sim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/sim.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/sim.cc > CMakeFiles/sim.dir/sim.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/sim.cc > CMakeFiles/sim.dir/sim.cc.i
 
 CMakeFiles/sim.dir/sim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/sim.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/sim.cc -o CMakeFiles/sim.dir/sim.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/sim.cc -o CMakeFiles/sim.dir/sim.cc.s
 
 CMakeFiles/sim.dir/src/action.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/action.cc.o: ../src/action.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/action.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/action.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/action.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/action.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/action.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/action.cc
 
 CMakeFiles/sim.dir/src/action.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/action.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/action.cc > CMakeFiles/sim.dir/src/action.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/action.cc > CMakeFiles/sim.dir/src/action.cc.i
 
 CMakeFiles/sim.dir/src/action.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/action.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/action.cc -o CMakeFiles/sim.dir/src/action.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/action.cc -o CMakeFiles/sim.dir/src/action.cc.s
 
 CMakeFiles/sim.dir/src/construction.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/construction.cc.o: ../src/construction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/src/construction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/construction.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/src/construction.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/construction.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/construction.cc
 
 CMakeFiles/sim.dir/src/construction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/construction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/construction.cc > CMakeFiles/sim.dir/src/construction.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/construction.cc > CMakeFiles/sim.dir/src/construction.cc.i
 
 CMakeFiles/sim.dir/src/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/construction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/construction.cc -o CMakeFiles/sim.dir/src/construction.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/construction.cc -o CMakeFiles/sim.dir/src/construction.cc.s
 
 CMakeFiles/sim.dir/src/detector.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/detector.cc.o: ../src/detector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/detector.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/detector.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/detector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/detector.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/detector.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/detector.cc
 
 CMakeFiles/sim.dir/src/detector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/detector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/detector.cc > CMakeFiles/sim.dir/src/detector.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/detector.cc > CMakeFiles/sim.dir/src/detector.cc.i
 
 CMakeFiles/sim.dir/src/detector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/detector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/detector.cc -o CMakeFiles/sim.dir/src/detector.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/detector.cc -o CMakeFiles/sim.dir/src/detector.cc.s
 
 CMakeFiles/sim.dir/src/generator.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/generator.cc.o: ../src/generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/generator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/generator.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/generator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/generator.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/generator.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/generator.cc
 
 CMakeFiles/sim.dir/src/generator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/generator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/generator.cc > CMakeFiles/sim.dir/src/generator.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/generator.cc > CMakeFiles/sim.dir/src/generator.cc.i
 
 CMakeFiles/sim.dir/src/generator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/generator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/generator.cc -o CMakeFiles/sim.dir/src/generator.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/generator.cc -o CMakeFiles/sim.dir/src/generator.cc.s
 
 CMakeFiles/sim.dir/src/physics.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/physics.cc.o: ../src/physics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/src/physics.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/physics.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/physics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/src/physics.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/physics.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/physics.cc
 
 CMakeFiles/sim.dir/src/physics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/physics.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/physics.cc > CMakeFiles/sim.dir/src/physics.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/physics.cc > CMakeFiles/sim.dir/src/physics.cc.i
 
 CMakeFiles/sim.dir/src/physics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/physics.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/physics.cc -o CMakeFiles/sim.dir/src/physics.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/physics.cc -o CMakeFiles/sim.dir/src/physics.cc.s
 
 CMakeFiles/sim.dir/src/run.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/run.cc.o: ../src/run.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sim.dir/src/run.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/run.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/run.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sim.dir/src/run.cc.o"
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/src/run.cc.o -c /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/run.cc
 
 CMakeFiles/sim.dir/src/run.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/run.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/run.cc > CMakeFiles/sim.dir/src/run.cc.i
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/run.cc > CMakeFiles/sim.dir/src/run.cc.i
 
 CMakeFiles/sim.dir/src/run.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/run.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/src/run.cc -o CMakeFiles/sim.dir/src/run.cc.s
+	/home/rodrimfg/softwere/mambaforge/envs/ROOT/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/src/run.cc -o CMakeFiles/sim.dir/src/run.cc.s
 
 # Object files for target sim
 sim_OBJECTS = \
@@ -217,7 +217,7 @@ sim: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/lib/libG4global.so
 sim: /home/rodrimfg/softwere/geant4/geant4-v11.0.2/install/lib/libG4ptl.so.0.0.2
 sim: /home/rodrimfg/softwere/clhep/install/lib/libCLHEP-2.4.5.3.so
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -230,6 +230,6 @@ CMakeFiles/sim.dir/clean:
 .PHONY : CMakeFiles/sim.dir/clean
 
 CMakeFiles/sim.dir/depend:
-	cd /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/histWDC/build/CMakeFiles/sim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build /home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles/sim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sim.dir/depend
 
