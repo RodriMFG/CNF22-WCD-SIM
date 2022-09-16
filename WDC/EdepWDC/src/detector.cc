@@ -77,15 +77,15 @@ G4TouchableHistory *ROhist)
     man->FillNtupleDColumn(0, 4, wlen);
     man->AddNtupleRow(0);
 
-    if(G4UniformRand() < quEff->Value(wlen))
-    {
+    //if(G4UniformRand() < quEff->Value(wlen))
+    //{
         man->FillNtupleIColumn(1, 0, evt);
         man->FillNtupleDColumn(1, 1, posDetector[0]);
         man->FillNtupleDColumn(1, 2, posDetector[1]);
         man->FillNtupleDColumn(1, 3, posDetector[2]);
         man->FillNtupleDColumn(1, 4, wlen);
         man->AddNtupleRow(1);
-    }
+    //}
 
     return true;
 }

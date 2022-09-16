@@ -141,7 +141,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     G4LogicalVolume *tCylLogic = new G4LogicalVolume(tCylSolid, Tyvek,
         "tCylLogic");
-    new G4LogicalSkinSurface("tCyl_surface", tCylLogic, tyvekSurface);
+    //new G4LogicalSkinSurface("tCyl_surface", tCylLogic, tyvekSurface);
 
     G4VPhysicalVolume *tCylPhys = new G4PVPlacement(0,
         G4ThreeVector(0., 0., tankPos_z - wtyvek + 0.5*m),
