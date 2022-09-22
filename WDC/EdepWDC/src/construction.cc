@@ -18,8 +18,8 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double worldSize_y = 20*m;
     G4double worldSize_z = 20*m;
 
-    G4double tankRadius = 3*m;
-    G4double tankHeight = 3*m;
+    G4double tankRadius = 5*m;
+    G4double tankHeight = 4*m;
     G4double tankPos_z = -10*m;
 
     G4double wtyvek = 1*mm;
