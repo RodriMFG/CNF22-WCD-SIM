@@ -1,4 +1,0 @@
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles/rebuild_cache.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles/Simulation.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles/edit_cache.dir
-/home/rodrimfg/Desktop/CNF22-WCD-SIM/WDC/EffHistWDC/build/CMakeFiles/sim.dir
