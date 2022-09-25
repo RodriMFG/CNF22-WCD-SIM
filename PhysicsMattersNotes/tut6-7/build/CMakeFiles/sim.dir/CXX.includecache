@@ -6,91 +6,91 @@
 
 #IncludeRegexTransform: 
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/action.cc
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/action.cc
 action.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/action.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/action.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/action.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/action.hh
 G4VUserActionInitialization.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VUserActionInitialization.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VUserActionInitialization.hh
 generator.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/generator.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/generator.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/construction.cc
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/construction.cc
 construction.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/construction.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/construction.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/construction.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/construction.hh
 G4VUserDetectorConstruction.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VUserDetectorConstruction.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VUserDetectorConstruction.hh
 G4VPhysicalVolume.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VPhysicalVolume.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VPhysicalVolume.hh
 G4LogicalVolume.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4LogicalVolume.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4LogicalVolume.hh
 G4Box.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4Box.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4Box.hh
 G4PVPlacement.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4PVPlacement.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4PVPlacement.hh
 G4NistManager.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4NistManager.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4NistManager.hh
 G4SystemOfUnits.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4SystemOfUnits.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4SystemOfUnits.hh
 detector.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/detector.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/detector.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/detector.cc
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/detector.cc
 detector.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/detector.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/detector.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/detector.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/detector.hh
 G4VSensitiveDetector.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VSensitiveDetector.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VSensitiveDetector.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/generator.cc
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/generator.cc
 generator.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/generator.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/generator.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/generator.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/generator.hh
 G4VUserPrimaryGeneratorAction.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VUserPrimaryGeneratorAction.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VUserPrimaryGeneratorAction.hh
 G4ParticleGun.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4ParticleGun.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4ParticleGun.hh
 G4SystemOfUnits.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4SystemOfUnits.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4SystemOfUnits.hh
 G4ParticleTable.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4ParticleTable.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4ParticleTable.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/physics.cc
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/physics.cc
 physics.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/physics.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/physics.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/physics.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/physics.hh
 G4VModularPhysicsList.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VModularPhysicsList.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VModularPhysicsList.hh
 G4EmStandardPhysics.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4EmStandardPhysics.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4EmStandardPhysics.hh
 G4OpticalPhysics.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4OpticalPhysics.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4OpticalPhysics.hh
 
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/sim.cc
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/sim.cc
 iostream
 -
 G4RunManager.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4RunManager.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4RunManager.hh
 G4UImanager.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4UImanager.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4UImanager.hh
 G4VisManager.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VisManager.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VisManager.hh
 G4VisExecutive.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4VisExecutive.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4VisExecutive.hh
 G4UIExecutive.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/G4UIExecutive.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/G4UIExecutive.hh
 construction.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/construction.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/construction.hh
 physics.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/physics.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/physics.hh
 action.hh
-/home/rodrimfg/Desktop/MyNotes/Geant4_files/notes/tut6-7/action.hh
+/home/rodrimfg/Desktop/CNF22-WCD-SIM/PhysicsMattersNotes/tut6-7/action.hh
 
 /home/rodrimfg/softwere/clhep/install/include/CLHEP/Geometry/BasicVector3D.h
 iosfwd
